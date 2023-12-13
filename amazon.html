@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com. Spend less. Smile more.</title>
+    <link rel="icon" href="amazon-icon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="amazon.css">
+</head>
+<body>
+    <nav id="nav">
+        <div >
+            <img id="nav_logo" src="amazon_logo.png" alt="amazon_logo">
+        </div>
+        
+        <div id="location">
+            <span id="del">Deliver to</span>
+            <br>
+            <i class="fa-sharp fa-solid fa-location-dot fa-lg"></i>
+            <select name="loca" id="loca">
+                <option class="locopt" value="us">America</option>
+                <option class="locopt" value="ind">India</option>
+                <option class="locopt" value="ch">China</option>
+                <option class="locopt" value="mx">Mexico</option>
+                <option class="locopt" value="fr">France</option>
+                <option class="locopt" value="ge">Germany</option>
+            </select>
+        </div>
+        <div>
+            <select name="cat" id="cat">
+                <option class="cat" value="all">All</option>
+                <option class="cat" value="a&c">Art & craft</option>
+                <option class="cat" value="at">Automotive</option>
+                <option class="cat" value="bpc">Beauty & Personal Care</option>
+                <option class="cat" value="cl">Clothing</option>
+                <option class="cat" value="el">Electronics</option>
+                <option class="cat" value="pv">Prime video</option>
+                <option class="cat" value="tg">Toys & games</option>
+            </select>
+        </div>
+        <form id="amasea" action="https://www.amazon.in/s">
+            <div >
+                <input type="text" placeholder="Search Amazon" id="Sea" name="k">
+            </div>
+            <div>
+                <button id="mag" type="submit" ><i id="magglass" class="fa-solid fa-magnifying-glass fa-xl"></i></button>
+            </div>
+        </form>
+        <div id="signin">
+            <a id="signin_a"  href="/signin"> <p id="sitext" >Hello,Sign In</p></a>
+            <select name="acc" id="acc">
+                <option class="accopt" value="all">Accounts and Lists</option>
+                <option class="accopt" value="a&c">Account</option>
+                <option class="accopt" value="at">Orders</option>
+                <option class="accopt" value="bpc">Recommendation</option>
+                <option class="accopt" value="cl">Browsing History</option>
+                <option class="accopt" value="el">WatchList</option>
+                <option class="accopt" value="pv">Content and devices </option>
+                <option class="accopt" value="tg">Memberships</option>
+            </select>
+        </div>
+        <div id="rno">
+            <a id="rno_a" href="/rno">
+                <p id="ret">Returns</p>
+                <p id="ord">& Orders</p>
+            </a>
+        </div>
+        <div id="Cart">
+            <i id="cart_logo" class="fa-solid fa-cart-shopping fa-xl"></i>
+            <a id="cart_text" href="/cart">Cart</a> 
+        </div>
+    </nav>
+    <div id="nav_below">
+        <label for="all_menu"><i id="barsmenu" class="fa-solid fa-bars fa-lg"></i></label>
+        <a class="all_menu" href="/all"> All</a>
+        <a class="nav_belowmenu" href="/td">Today's deals</a>
+        <a class="nav_belowmenu" href="/cs">Customer service</a>
+        <a class="nav_belowmenu" href="/reg">Registry</a>
+        <a class="nav_belowmenu" href="/gc">Gift Cards</a>
+        <a class="nav_belowmenu" href="/sell">Sell</a>
+    </div>
+    <div>
+        <img id="hero_img" src="./Assets/hero_image.jpg" alt="Banner">
+    </div>
+    <div id="content">
+        <div class="content_box" >
+            <h3 class="content_headings">Clothing and Apparels</h3>
+            <br>
+            <img class="content_image" src="./Assets/apparel.jpg" alt="apparel">
+        </div>
+        <div class="content_box" >
+            <h3 class="content_headings">Furniture</h3>
+            <br>
+            <img class="content_image" src="./Assets/furniture.jpg" alt="furniture">
+        </div>
+        <div class="content_box" >
+            <h3 class="content_headings">Pet items</h3>
+            <br>
+            <img class="content_image" src="./Assets/pet items.jpg " alt="pets">
+        </div>
+        <div class="content_box" >
+            <h3 class="content_headings">Mobiles and accessories</h3>
+            <br>
+            <img class="content_image_mobile" src="./Assets/mobiles.jpg" alt="mobiles">
+        </div>
+        <div class="content_box" >
+            <h3 class="content_headings">Men's grooming</h3>
+            <br>
+            <img class="content_image" src="./Assets/grooming.jpg" alt="gromming">
+        </div>
+        <div class="content_box" >
+            <h3 class="content_headings">Makeup and Cosmetics</h3>
+            <br>
+            <img class="content_image" src="./Assets/makeup.jpg" alt="womens">
+        </div>
+        <div class="content_box" >
+            <h3 class="content_headings">Art & craft</h3>
+            <br>
+            <img class="content_image" src="./Assets/art & craft.jpg" alt="art&craft">
+        </div>
+        <div class="content_box" >
+            <h3 class="content_headings">Nightwear & more</h3>
+            <br>
+            <img class="content_image" src="./Assets/Nightwear.jpg" alt="nightwears">
+        </div>
+    </div>
+    <footer>
+        <div id="back_top">
+            <a id="top_a" href="#top">Back to top 
+                <i id="top_icon" class="fa-solid fa-chevron-up fa-lg"></i>
+            </a>
+        </div>
+        <div id="bottom_empty">
+
+        </div>
+        <div id="bottom_lists">
+            <ul class="bottom_ul" >
+                <h3 class="bottom_heading">Get to know Us</h3>
+                <li ><a class="bottom_list_items" href="">About us</a></li>
+                <li ><a class="bottom_list_items" href="">Careers</a></li>
+                <li ><a class="bottom_list_items" href="">Press Releases</a></li>
+                <li ><a class="bottom_list_items" href="">Amazon Science</a></li>
+            </ul>
+            <ul class="bottom_ul" >
+                <h3 class="bottom_heading">Connect with Us</h3>
+                <li ><a class="bottom_list_items" href="">Facebook</a></li>
+                <li ><a class="bottom_list_items" href="">Instagram</a></li>
+                <li ><a class="bottom_list_items" href="">Twitter</a></li>
+            </ul>
+            <ul class="bottom_ul" >
+                <h3 class="bottom_heading">Make money with Us</h3>
+                <li ><a class="bottom_list_items" href="">Sell on Amazon</a></li>
+                <li ><a class="bottom_list_items" href="">Sell under Amazon Accelerator</a></li>
+                <li ><a class="bottom_list_items" href="">Protect and build your brand</a></li>
+                <li ><a class="bottom_list_items" href="">Amazon Global selling</a></li>
+                <li ><a class="bottom_list_items" href="">Become an Affiliate</a></li>
+                <li ><a class="bottom_list_items" href="">Fulfilment by Amazon</a></li>
+                <li ><a class="bottom_list_items" href="">Advertise your products</a></li>
+            </ul>
+            <ul class="bottom_ul" >
+                <h3 class="bottom_heading">Let Us Help You</h3>
+                <li >COVID-19 and Amazon</li>
+                <li ><a class="bottom_list_items" href="">Your Account</a></li>
+                <li ><a class="bottom_list_items" href="">Returns Centre</a></li>
+                <li ><a class="bottom_list_items" href="">100% Purchase Protection</a></li>
+                <li ><a class="bottom_list_items" href="">Amazon App Download</a></li>
+                <li ><a class="bottom_list_items" href="">Help</a></li>
+            </ul>
+
+        </div>
+    </footer>
+    
+</body>
+</html>
